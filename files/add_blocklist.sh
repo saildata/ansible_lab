@@ -6,3 +6,6 @@ for i in $(cat /etc/blocklist.txt); do
 	/sbin/iptables -I INPUT -s $i -j DROP
 	/sbin/iptables -I OUTPUT -d $i -j REJECT
 done
+
+# Remove any duplicates
+iptables-save | awk '!($0 in a) { a[$0]; print }' | iptables-restore
