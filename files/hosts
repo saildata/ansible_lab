@@ -1,0 +1,4 @@
+127.0.0.1	localhost
+
+# Blacklist sites
+0.0.0.0		agar.io
