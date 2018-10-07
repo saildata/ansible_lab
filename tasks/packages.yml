@@ -1,4 +1,0 @@
-- name: Install packages with apt
-  apt: name={{item}}
-  with_items:
-          - vim
