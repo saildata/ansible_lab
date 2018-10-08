@@ -1,2 +1,2 @@
 - name: reload ip tables persistent
-- command: netfilter-persistent save && netfilter-persistent reload
+  command: netfilter-persistent save && netfilter-persistent reload
