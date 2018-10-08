@@ -1,0 +1,6 @@
+- name: apt install packages
+  apt: 
+    name: "{{ packages }}"
+  vars:
+    packages:
+    - iptables-persistent
