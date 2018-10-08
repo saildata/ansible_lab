@@ -9,8 +9,7 @@
 
 
   tasks:
-          - include:
-              tasks/install_packages.yml 
-              tasks/users.yml
-              tasks/cron.yml
-              tasks/iptables_blacklist.yml
+          - include: tasks/install_packages.yml
+          - include: tasks/users.yml
+          - include: tasks/cron.yml
+          - include: tasks/iptables_blacklist.yml
