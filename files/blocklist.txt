@@ -305,3 +305,5 @@ adobe.com
 sourceforge.net
 download.cnet.com
 cnet.com
+157.240.0.0/16
+216.58.192.0/19
