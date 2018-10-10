@@ -1,0 +1,2 @@
+- name: copy policies.json to machine
+  copy: src=files/policies.json dest=/usr/lib/firefox/distribution/policies.json owner=root group=root mode=0644
