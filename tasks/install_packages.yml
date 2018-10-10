@@ -4,3 +4,4 @@
   vars:
     packages:
     - iptables-persistent
+    - spyder3
