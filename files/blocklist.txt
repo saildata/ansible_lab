@@ -308,7 +308,6 @@ download.cnet.com
 cnet.com
 157.240.0.0/16
 worm.is
-216.58.218.174
 umn.edu
 andkon.com
 www.realarcade.com
@@ -319,7 +318,5 @@ www.alawar.com
 www.popcap.com
 www.candystand.com
 www.gametop.com
-216.58.194.97
-216.58.218.174
 162.243.0.0/16
 unblockedagario.com
