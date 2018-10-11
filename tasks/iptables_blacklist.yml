@@ -6,6 +6,3 @@
 
 - name: run iptables blacklist script
   command: bash /etc/add_blocklist.sh
-  
-- name: clear iptables temp
-  command: iptables -F
