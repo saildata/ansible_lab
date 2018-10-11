@@ -16,12 +16,13 @@
     "WebsiteFilter": {
       "Block": [
 "*://sites.google.com/*", 
-"*://www.coolmath-games.com/*", 
-"*://www.coolmathgames.com/*",
-"*://www.coolmath.com/*",
-"*://www.coolmathin.com/*",
-"*://www.coolermathgames.com/*",
-"*://www.hotspotshield.com/*"
+"*://*.coolmath-games.com/*", 
+"*://*.coolmathgames.com/*",
+"*://*.coolmath.com/*",
+"*://*.coolmathin.com/*",
+"*://*.coolermathgames.com/*",
+"*://*.hotspotshield.com/*",
+"https://quickdraw.withgoogle.com/*"
 ]
     },
     "Homepage": {

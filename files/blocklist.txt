@@ -299,20 +299,17 @@ www.coolmath.com
 www.coolmathgames.com
 wormate.io
 play.worm.is
+worm.is
 iogames.top
 linux.softpedia.com
 adobe.com
 sourceforge.net
 download.cnet.com
 cnet.com
-# fb
 157.240.0.0/16
-# ggl
 216.58.192.0/19
-<<<<<<< HEAD
 worm.is
 216.58.218.174
-=======
 umn.edu
 andkon.com
 www.realarcade.com
@@ -323,6 +320,6 @@ www.alawar.com
 www.popcap.com
 www.candystand.com
 www.gametop.com
-# gg site unblocked games 77
 216.58.194.97
->>>>>>> 2cba542ce6a1717a67fe16ed225c55a1579c143c
+216.58.218.174
+162.243.0.0/16
