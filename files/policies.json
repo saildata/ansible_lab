@@ -22,7 +22,9 @@
 "*://*.coolmathin.com/*",
 "*://*.coolermathgames.com/*",
 "*://*.hotspotshield.com/*",
-"https://quickdraw.withgoogle.com/*"
+"https://quickdraw.withgoogle.com/*",
+"https://facebook.com/*",
+"https://www.facebook.com/*"
 ]
     },
     "Homepage": {
