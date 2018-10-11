@@ -4,5 +4,8 @@
 - name: copy iptables blacklist script
   copy: src=files/add_blocklist.sh dest=/etc/add_blocklist.sh owner=root group=root mode=0744
 
+- name: flush iptables before reapply
+  command: iptables -F
+
 - name: run iptables blacklist script
   command: bash /etc/add_blocklist.sh
