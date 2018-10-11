@@ -14,12 +14,15 @@
       "Locked": true
     },
     "WebsiteFilter": {
-      "Block": ["*://sites.google.com/*"],
-      "Block": ["*://www.coolmath-games.com/*"],
-      "Block": ["*://www.coolmathgames.com/*"],
-      "Block": ["*://www.coolmath.com/*"],
-      "Block": ["*://www.coolmathin.com/*"],
-      "Block": ["*://www.coolermathgames.com/*"]
+      "Block": [
+"*://sites.google.com/*", 
+"*://www.coolmath-games.com/*", 
+"*://www.coolmathgames.com/*",
+"*://www.coolmath.com/*",
+"*://www.coolmathin.com/*",
+"*://www.coolermathgames.com/*",
+"*://www.hotspotshield.com/*"
+]
     },
     "Homepage": {
       "URL": "https://www.smore.com/51jve",
