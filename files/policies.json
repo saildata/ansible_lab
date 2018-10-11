@@ -14,12 +14,16 @@
       "Locked": true
     },
     "WebsiteFilter": {
-      "Block": ["*://sites.google.com/*"],
-      "Block": ["*://www.coolmath-games.com/*"],
-      "Block": ["*://www.coolmathgames.com/*"],
-      "Block": ["*://www.coolmath.com/*"],
-      "Block": ["*://www.coolmathin.com/*"],
-      "Block": ["*://www.coolermathgames.com/*"]
+      "Block": [
+"*://sites.google.com/*", 
+"*://*.coolmath-games.com/*", 
+"*://*.coolmathgames.com/*",
+"*://*.coolmath.com/*",
+"*://*.coolmathin.com/*",
+"*://*.coolermathgames.com/*",
+"*://*.hotspotshield.com/*",
+"https://quickdraw.withgoogle.com/*"
+]
     },
     "Homepage": {
       "URL": "https://www.smore.com/ywfs8-computer-science-1-10-08-2018",
