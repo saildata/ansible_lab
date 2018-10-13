@@ -6,3 +6,4 @@
     - iptables-persistent
     - spyder3
     - preload
+    - idle-python3.6
