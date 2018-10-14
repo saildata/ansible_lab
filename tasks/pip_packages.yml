@@ -1,0 +1,4 @@
+- name: python pip package management
+  pip: 
+    name: thonny
+    state: latest
