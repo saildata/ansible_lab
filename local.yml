@@ -10,6 +10,7 @@
 
   tasks:
           - include: tasks/install_packages.yml
+          - include: tasks/pip_packages.yml
           - include: tasks/firefox_policy.yml
           - include: tasks/snap_remove_packages.yml
           - include: tasks/users.yml
