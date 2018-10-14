@@ -14,4 +14,5 @@
           - include: tasks/snap_remove_packages.yml
           - include: tasks/users.yml
           - include: tasks/cron.yml
+          - include: tasks/iptables_rules_v4.yml
           - include: tasks/iptables-persistent-run.yml
