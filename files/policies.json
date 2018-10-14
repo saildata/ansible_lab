@@ -25,15 +25,11 @@
 "https://quickdraw.withgoogle.com/*",
 "https://facebook.com/*",
 "https://www.facebook.com/*",
-<<<<<<< HEAD
-"https://www.youtube.com/*",
-"*://*.coursehero.com/*"
-=======
+"*://*.coursehero.com/*",
 "*://*.agariov.org/*",
 "*://agar.one/*",
 "*://warin.space/*",
 "*://gota.io/*"
->>>>>>> edeabed4c0166afebee33e81c198040af825a7cd
 ]
     },
     "Homepage": {
