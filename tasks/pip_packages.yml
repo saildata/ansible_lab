@@ -1,4 +1,5 @@
 - name: python pip package management
   pip: 
     name: thonny
+    executable: pip3
     state: latest
