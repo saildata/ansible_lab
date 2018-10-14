@@ -1,2 +1,8 @@
+- name: copy rules.v4 to /etc/iptables for faster rule apply
+  copy: src=files/rules.v4 dest=/etc/iptables/rules.v4 owner=root group=root mode=0640
+
+- name: reload iptables file via iptables command
+  command: iptables-restore < /etc/iptables/rules.v4
+
 - name: reload ip tables persistent
   command: netfilter-persistent save && netfilter-persistent reload
