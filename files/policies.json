@@ -33,7 +33,11 @@
 ]
     },
     "Homepage": {
+<<<<<<< HEAD
       "URL": "https://www.smore.com/4j05m-computer-science-1-10-22-2018",
+=======
+      "URL": "https://www.smore.com/qak6n-computer-science-1-10-15-2018",
+>>>>>>> 168e41c0799086f0683b3e2adf0f09f1a72f952c
       "Locked": true
     },
     "InstallAddonsPermission": {

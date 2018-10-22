@@ -1,2 +1,5 @@
+- name: reload iptables file via iptables command
+  shell: iptables-restore < /etc/iptables/rules.v4
+
 - name: reload ip tables persistent
   command: netfilter-persistent save && netfilter-persistent reload

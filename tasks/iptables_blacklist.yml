@@ -1,11 +1,5 @@
-- name: copy iptables blacklist
+- name: copy iptables blacklist (used for testing)
   copy: src=files/blocklist.txt dest=/etc/blocklist.txt owner=root group=root mode=0644
 
-- name: copy iptables blacklist script
+- name: copy iptables blacklist script (used for testing)
   copy: src=files/add_blocklist.sh dest=/etc/add_blocklist.sh owner=root group=root mode=0744
-
-- name: flush iptables before reapply
-  command: iptables -F
-
-- name: run iptables blacklist script
-  command: bash /etc/add_blocklist.sh

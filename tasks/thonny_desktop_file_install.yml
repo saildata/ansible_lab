@@ -1,0 +1,5 @@
+- name: add desktop entry for Thonny (not installed via pip3)
+  copy: src=files/Thonny.desktop dest=/usr/share/applications/Thonny.desktop owner=root group=root mode=0644
+
+- name: update desktop db
+  command: updatedb
