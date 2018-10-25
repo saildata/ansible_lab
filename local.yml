@@ -15,6 +15,7 @@
           - include: tasks/firefox_policy.yml
           - include: tasks/snap_remove_packages.yml
           - include: tasks/users.yml
+          - include: tasks/temp_user.yml
           - include: tasks/cron.yml
           - include: tasks/iptables_blacklist.yml
           - include: tasks/iptables_rules_v4.yml
