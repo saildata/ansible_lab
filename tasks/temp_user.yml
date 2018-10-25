@@ -1,4 +1,4 @@
 - name: create student user
   user: 
     name: student
-    password: 102518
+    password: '6$YZxsfgIWQry.QB88$pG8rFTjEvW5m.oTDKPtk/I/M1y7qxA.NPrlkptSUUSzzeIQoHLeHb7EzxIXUYoCWo.7AVcxtUuUFd8FA0FfFb0'
