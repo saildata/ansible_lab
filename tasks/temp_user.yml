@@ -1,7 +1,4 @@
-- name: create temp user
+- name: create student user
   user: 
-    name=student 
-    uid=1050
-    password: 'Togetherisbetter1050'
-    shell: /bin/bash
-    system: no
+    name: student
+    password: 'Togetherisbetter102518'
