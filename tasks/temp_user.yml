@@ -1,4 +1,4 @@
 - name: create student user
   user: 
     name: student
-    password: 'Togetherisbetter102518'
+    password: 102518
