@@ -1,7 +1,7 @@
 - name: create temp user
-  user: name=student uid=1050
-  password: 'Togetherisbetter1050'
-  state: present
-  shell: /bin/bash
-  system: no
-  createhome: yes
+  user: 
+    name=student 
+    uid=1050
+    password: 'Togetherisbetter1050'
+    shell: /bin/bash
+    system: no
