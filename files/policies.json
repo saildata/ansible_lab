@@ -29,7 +29,9 @@
 "*://agar.one/*",
 "*://warin.space/*",
 "*://*.cardsagainsthumanity.com/*",
-"*://gota.io/*"
+"*://gota.io/*",
+"*://chess.com/*",
+"*://flappybird.io/*"
 ]
     },
     "Homepage": {
