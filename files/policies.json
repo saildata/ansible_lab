@@ -32,7 +32,8 @@
 "*://gota.io/*",
 "*://chess.com/*",
 "*://twitch.tv/*",
-"*://*.aarp.com/*"
+"*://*.aarp.com/*",
+"*://www.flappybird.io/*"
 ]
     },
     "Homepage": {
