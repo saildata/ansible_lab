@@ -34,7 +34,9 @@
 "*://chess.com/*",
 "*://twitch.tv/*",
 "*://*.aarp.com/*",
-"*://flappybird.io/*"
+"*://flappybird.io/*",
+"*://spaceone.io/*"
+
 ]
     },
     "Homepage": {
