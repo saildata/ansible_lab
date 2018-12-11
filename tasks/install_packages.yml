@@ -9,3 +9,4 @@
     - idle-python3.6
     - python3-pip
     - alsa-utils
+    - openssh-server
