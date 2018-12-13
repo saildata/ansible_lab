@@ -1,2 +1,9 @@
-- name: snap remove packages
+- name: snap remove ubuntu-mate-welcome
   command: snap remove ubuntu-mate-welcome
+
+- name: snap remove pulsemixer
+  command: snap remove pulsemixer
+
+- name: snap remove software-boutique
+  command: snap remove software-boutique
+
