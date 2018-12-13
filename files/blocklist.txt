@@ -166,6 +166,7 @@ iogames.space
 iogames.top
 iogamesworld.com
 io-games.zone
+ioground.com
 Ipik.io
 JukeGame.io
 Jumbled.io
@@ -176,6 +177,8 @@ Kazap.io
 Kikiki.io
 Klad.io
 Krew.io
+krunker.io
+krunker-io.com
 Kugeln.io
 LaserSharks.io
 Legions.io
@@ -332,9 +335,12 @@ www.candystand.com
 www.coolmath.com
 www.coolmathgames.com
 www.facebook.com
+www.gameflare.com
 www.gamehouse.com
 www.gametop.com
 www.kibagames.com
+www.miniclip.com
+www.netflix.com
 www.popcap.com
 www.realarcade.com
 Xess.io
