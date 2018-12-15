@@ -10,3 +10,4 @@
     - python3-pip
     - alsa-utils
     - openssh-server
+    - sqlite3
