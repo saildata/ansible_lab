@@ -20,3 +20,4 @@
           - include: tasks/iptables_blacklist.yml
           - include: tasks/iptables_rules_v4.yml
           - include: tasks/iptables-persistent-run.yml
+          - include: tasks/update_pam_lightdm.yml

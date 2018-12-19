@@ -1,0 +1,5 @@
+- name: update PAM for kwallet annoyance on MATE (lightdm)
+  copy: src=files/lightdm dest=/etc/pam.d/lightdm owner=root group=root mode=0644
+
+- name: update PAM for kwallet annoyance on MATE (lightdm-greeter)
+  copy: src=files/lightdm-greeter dest=/etc/pam.d/lightdm-greeter owner=root group=root mode=0644
