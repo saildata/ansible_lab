@@ -40,17 +40,32 @@
 "*://worldsbiggestpacman.com/*",
 "*://splix.io/*",
 "*://www.koalastothemax.com/*",
-"*://soundcloud.com/*"
+"*://soundcloud.com/*",
+"*://chess.org//*",
+"*://www.laughfactory.com//*",
+"*://ninjakiwi.com//*",
+"*://www.adobe.com//*",
+"*://moomoo.io//*",
+"*://krunker.io//*"
+
 
 ]
     },
     "Homepage": {
-      "URL": "https://www.smore.com/xat3z-computer-science-1-12-10-2018",
+      "URL": "https://www.smore.com/huabt-computer-science-1-12-17-2018",
       "Locked": true
     },
     "InstallAddonsPermission": {
       "Default": false
+    },
+    "policies": {
+      "Extensions": {
+        "Install": ["https://addons.mozilla.org/firefox/downloads/file/1166954/ublock_origin-1.17.4-an+fx.xpi"],
+        "Uninstall": [""],
+        "Locked":  [""]
     }
+}
+
   }
 }
 
