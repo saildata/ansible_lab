@@ -57,15 +57,7 @@
     },
     "InstallAddonsPermission": {
       "Default": false
-    },
-    "policies": {
-      "Extensions": {
-        "Install": ["https://addons.mozilla.org/firefox/downloads/file/1166954/ublock_origin-1.17.4-an+fx.xpi"],
-        "Uninstall": [""],
-        "Locked":  [""]
     }
-}
-
   }
 }
 
