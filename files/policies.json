@@ -17,7 +17,7 @@
       "Block": [
 "*://sites.google.com/*",
 "*://www.google.com/doodles/*",
-"*://*.coolmath-games.com/*", 
+"*://*.coolmath-games.com/*",
 "*://*.coolmathgames.com/*",
 "*://*.coolmath.com/*",
 "*://*.coolmathin.com/*",
@@ -52,7 +52,7 @@
 ]
     },
     "Homepage": {
-      "URL": "https://www.smore.com/huabt-computer-science-1-12-17-2018",
+      "URL": "https://www.smore.com/nfbw3-computer-science-1-01-14-2018",
       "Locked": true
     },
     "InstallAddonsPermission": {
@@ -60,4 +60,3 @@
     }
   }
 }
-
