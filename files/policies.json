@@ -15,7 +15,6 @@
     },
     "WebsiteFilter": {
       "Block": [
-"*://sites.google.com/*",
 "*://www.google.com/doodles/*",
 "*://*.coolmath-games.com/*",
 "*://*.coolmathgames.com/*",
