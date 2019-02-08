@@ -13,7 +13,6 @@
           - include: tasks/pip_packages.yml
           - include: tasks/thonny_desktop_file_install.yml
           - include: tasks/firefox_policy.yml
-          - include: tasks/snap_remove_packages.yml
           - include: tasks/users.yml
           - include: tasks/temp_user.yml
           - include: tasks/cron.yml
