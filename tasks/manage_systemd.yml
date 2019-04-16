@@ -1,0 +1,11 @@
+- name: systemd disable kerneloops
+  systemd:
+          name: "{{ item }}"
+          state: stopped
+          enabled: no
+  with_items:
+          - 'kerneloops.service'
+          - 'ModemManager.service'
+          - 'whoopsie.service'
+          - 'avahi-daemon.service'
+          - 'avahi-daemon.socket'
