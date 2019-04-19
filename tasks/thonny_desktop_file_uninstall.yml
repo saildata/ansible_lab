@@ -1,0 +1,8 @@
+- name: remove desktop entry for Thonny
+  command: rm /usr/share/applications/Thonny.desktop
+  args:
+          chdir: /usr/share/applications
+          removes: Thonny.desktop
+
+- name: update desktop db
+  command: updatedb

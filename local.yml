@@ -11,7 +11,7 @@
   tasks:
           - include: tasks/install_packages.yml
           - include: tasks/pip_packages.yml
-          - include: tasks/thonny_desktop_file_install.yml
+          - include: tasks/thonny_desktop_file_uninstall.yml
           - include: tasks/firefox_policy.yml
           - include: tasks/users.yml
           - include: tasks/temp_user.yml

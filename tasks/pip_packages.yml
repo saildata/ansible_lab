@@ -2,4 +2,4 @@
   pip: 
     name: thonny
     executable: pip3
-    state: latest
+    state: absent
