@@ -61,7 +61,8 @@
 "*://vertix.io/*",
 "*://crazygames.com/*",
 "*://iogames.army/*",
-"*://shellshock.io/*"
+"*://shellshock.io/*",
+"*://google.com/pacman/*"
 ]
     },
     "Homepage": {
