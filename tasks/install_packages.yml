@@ -6,7 +6,7 @@
     - iptables-persistent
     - spyder3
     - preload
-    - idle-python3.6
+    - idle
     - python3-pip
     - alsa-utils
     - openssh-server
