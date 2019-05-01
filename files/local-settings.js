@@ -1,5 +1,5 @@
-user_pref("browser.preferences.defaultPerformanceSettings.enabled", false);
-user_pref("general.autoScroll", false);
-user_pref("general.smoothScroll", false);
-user_pref("general.smoothScroll.pages", false);
-user_pref("browser.tabs.warnOnClose", false);
+pref("browser.preferences.defaultPerformanceSettings.enabled", false);
+pref("general.autoScroll", false);
+pref("general.smoothScroll", false);
+pref("general.smoothScroll.pages", false);
+pref("browser.tabs.warnOnClose", false);
