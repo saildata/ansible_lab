@@ -1,1 +1,75 @@
-
+{
+  "policies": {
+    "BlockAboutConfig": true,
+    "DisplayBookmarksToolbar": true,
+    "DisableFirefoxStudies": true,
+    "DisableForgetButton": true,
+    "DisablePocket": true,
+    "DisablePrivateBrowsing": true,
+    "DisableTelemetry": true,
+    "DontCheckDefaultBrowser": true,
+    "BlockAboutAddons": true,
+    "InstallAddonsPermission": {
+      "Default": false
+    },
+    "Extensions": {
+        "Install": ["https://addons.mozilla.org/firefox/downloads/file/1730458/ublock_origin-latest-an+fx.xpi"]
+    },
+    "FlashPlugin": {
+      "Default": false,
+      "Locked": true
+    },
+    "WebsiteFilter": {
+      "Block": [
+"*://www.google.com/doodles/*",
+"*://*.coolmath-games.com/*",
+"*://*.coolmathgames.com/*",
+"*://*.coolmath.com/*",
+"*://*.coolmathin.com/*",
+"*://*.coolermathgames.com/*",
+"*://*.hotspotshield.com/*",
+"https://quickdraw.withgoogle.com/*",
+"https://www.google.com/doodles/*",
+"https://www.facebook.com/*",
+"*://*.coursehero.com/*",
+"*://*.agariov.org/*",
+"*://agar.one/*",
+"*://warin.space/*",
+"*://*.cardsagainsthumanity.com/*",
+"*://gota.io/*",
+"*://www.chess.com/*",
+"*://twitch.tv/*",
+"*://*.aarp.com/*",
+"*://.flappybird.io/*",
+"*://spaceone.io/*",
+"*://worldsbiggestpacman.com/*",
+"*://splix.io/*",
+"*://www.koalastothemax.com/*",
+"*://soundcloud.com/*",
+"*://chess.org/*",
+"*://www.laughfactory.com/*",
+"*://ninjakiwi.com/*",
+"*://www.adobe.com/*",
+"*://moomoo.io/*",
+"*://krunker.io/*",
+"*://playsnake.org/*",
+"*://itch.io/*",
+"*://s0urce.io/*",
+"*://iogames.space/*",
+"*://silvergames.com/*",
+"*://greasyfork.org/*",
+"*://ataribreakout.org/*",
+"*://greasyfork.org/*",
+"*://vertix.io/*",
+"*://crazygames.com/*",
+"*://iogames.army/*",
+"*://shellshock.io/*",
+"*://google.com/pacman/*"
+]
+    },
+    "Homepage": {
+      "URL": "https://duckduckgo.com",
+      "Locked": true
+    }
+  }
+}
