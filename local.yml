@@ -22,3 +22,4 @@
           - include: tasks/iptables-persistent-run.yml
           - include: tasks/update_pam_lightdm.yml
           - include: tasks/manage_systemd.yml
+          - include: tasks/update_systemd_logind_conf.yml
