@@ -27,3 +27,4 @@
           - include: tasks/manage_systemd.yml
           - include: tasks/update_systemd_logind_conf.yml
           - include: tasks/snap_remove_packages.yml
+          - include: tasks/manage_systemd_user.yml
