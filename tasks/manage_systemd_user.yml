@@ -3,7 +3,7 @@
           name: "{{ item }}"
           masked: yes
           enabled: no
-          scope: user
+          scope: global
   with_items:
           - 'gvfs-afc-volume-monitor.service'
           - 'gvfs-mtp-volume-monitor.service'
