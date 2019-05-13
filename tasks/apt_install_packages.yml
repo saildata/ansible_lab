@@ -3,6 +3,7 @@
     name: "{{ packages }}"
   vars:
     packages:
+    - aptitude
     - iptables-persistent
     - spyder3
     - preload
