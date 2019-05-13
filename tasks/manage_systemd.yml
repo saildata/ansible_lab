@@ -1,4 +1,4 @@
-- name: systemd disable kerneloops
+- name: disable some systemd system units
   systemd:
           name: "{{ item }}"
           state: stopped

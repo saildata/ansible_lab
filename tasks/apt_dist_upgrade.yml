@@ -1,0 +1,5 @@
+- name: apt install any upgrades
+  apt:
+          autoclean: yes
+          autoremove: yes
+          upgrade: full

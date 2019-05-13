@@ -1,0 +1,10 @@
+- name: disable some systemd user units
+  systemd:
+          name: "{{ item }}"
+          masked: yes
+          enabled: no
+  with_items:
+          - 'gvfs-afc-volume-monitor.service'
+          - 'gvfs-mtp-volume-monitor.service'
+          - 'gvfs-gphoto2-volume-monitor.service'
+          - 'ubuntu-report.service'
