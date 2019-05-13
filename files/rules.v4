@@ -57,7 +57,6 @@
 -A INPUT -s 104.24.111.135/32 -j DROP
 -A INPUT -s 104.24.110.135/32 -j DROP
 -A INPUT -s 188.165.129.145/32 -j DROP
--A INPUT -s 104.248.120.187/32 -j DROP
 -A INPUT -s 104.27.187.200/32 -j DROP
 -A INPUT -s 104.27.186.200/32 -j DROP
 -A INPUT -s 72.21.81.61/32 -j DROP
@@ -850,7 +849,6 @@
 -A OUTPUT -d 104.24.110.135/32 -j REJECT --reject-with icmp-port-unreachable
 -A OUTPUT -d 104.24.111.135/32 -j REJECT --reject-with icmp-port-unreachable
 -A OUTPUT -d 188.165.129.145/32 -j REJECT --reject-with icmp-port-unreachable
--A OUTPUT -d 104.248.120.187/32 -j REJECT --reject-with icmp-port-unreachable
 -A OUTPUT -d 104.27.186.200/32 -j REJECT --reject-with icmp-port-unreachable
 -A OUTPUT -d 104.27.187.200/32 -j REJECT --reject-with icmp-port-unreachable
 -A OUTPUT -d 72.21.81.61/32 -j REJECT --reject-with icmp-port-unreachable
