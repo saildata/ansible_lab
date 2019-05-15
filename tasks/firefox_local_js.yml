@@ -1,0 +1,5 @@
+- name: copy local-settings.js to machine
+  copy: src=files/local-settings.js dest=/usr/lib/firefox/defaults/pref/local-settings.js owner=root group=root mode=0644
+
+- name: copy local-settings.cfg to machine
+  copy: src=files/local-settings.cfg dest=/usr/lib/firefox/local-settings.cfg owner=root group=root mode=0644

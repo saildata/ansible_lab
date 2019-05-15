@@ -1,0 +1,2 @@
+- name: Don't translate English to English for apt update
+  copy: src=files/00aptitude dest=/etc/apt/apt.conf.d/00aptitude owner=root group=root mode=0664

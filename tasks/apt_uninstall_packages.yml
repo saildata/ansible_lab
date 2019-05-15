@@ -1,0 +1,11 @@
+- name: apt uninstall packages
+  apt:
+    name: "{{ packages }}"
+    state: absent
+    purge: yes
+  vars:
+    packages:
+    - blueman
+    - bluez 
+    - bluez-cups 
+    - bluez-obexd

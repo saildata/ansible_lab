@@ -1,8 +1,9 @@
 - name: apt install packages
-  apt: 
+  apt:
     name: "{{ packages }}"
   vars:
     packages:
+    - aptitude
     - iptables-persistent
     - spyder3
     - preload

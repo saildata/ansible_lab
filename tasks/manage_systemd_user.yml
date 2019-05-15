@@ -1,0 +1,7 @@
+- name: disable some systemd user units
+  shell: systemctl --user --global mask "{{ item }}"
+  with_items:
+          - gvfs-afc-volume-monitor.service
+          - gvfs-mtp-volume-monitor.service
+          - gvfs-gphoto2-volume-monitor.service
+          - ubuntu-report.service

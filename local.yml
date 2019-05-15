@@ -9,8 +9,12 @@
 
 
   tasks:
-          - include: tasks/install_packages.yml
+          - include: tasks/apt_install_packages.yml
+          - include: tasks/apt_dist_upgrade.yml
+          - include: tasks/apt_uninstall_packages.yml
+          - include: tasks/update_apt_translations.yml
           - include: tasks/pip_packages.yml
+          - include: tasks/firefox_local_js.yml
           - include: tasks/thonny_desktop_file_uninstall.yml
           - include: tasks/firefox_policy.yml
           - include: tasks/users.yml
@@ -21,3 +25,6 @@
           - include: tasks/iptables-persistent-run.yml
           - include: tasks/update_pam_lightdm.yml
           - include: tasks/manage_systemd.yml
+          - include: tasks/update_systemd_logind_conf.yml
+          - include: tasks/snap_remove_packages.yml
+          - include: tasks/manage_systemd_user.yml
