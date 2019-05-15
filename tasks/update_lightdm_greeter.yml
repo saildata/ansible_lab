@@ -1,0 +1,5 @@
+- name: Custom lightdm login background picture
+  copy: src=files/buckaroo_matrix_background.png dest=/usr/share/backgrounds/buckaroo_matrix_background owner=root group=root mode=0755
+
+- name: Custom lightdm slick-greeter.conf
+  copy: src=files/slick-greeter.conf dest=/etc/lightdm/slick-greeter.conf owner=root group=root mode=0644

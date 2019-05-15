@@ -9,6 +9,7 @@
 
 
   tasks:
+          - include: tasks/update_lightdm_greeter.yml
           - include: tasks/apt_install_packages.yml
           - include: tasks/apt_dist_upgrade.yml
           - include: tasks/apt_uninstall_packages.yml
